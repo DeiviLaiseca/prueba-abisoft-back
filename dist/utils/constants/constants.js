@@ -1,0 +1,80 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CONSTANTS = void 0;
+exports.CONSTANTS = {
+    TOKEN_CRYPT: "3NC0D3R",
+    NODEMAILER_VALID: "Nodemailer permissions verified",
+    MONGO_ONLINE: "MongoDB Admin App...ONLINE",
+    SERVER_RUN: "Admin Pro Node Server runnig port:",
+    MENSAJES: {
+        NO_TOKEN: "El token no es correcto.",
+        NO_PARAMETERS: "Debe ingresar todos los parametros.",
+        NO_LOGIN: "Usuario y/o Contraseña no son correctas.",
+        NO_EXIST: "El usuario no existe.",
+        NO_PASSWORD: "La contraseña ingresada no es valida.",
+        NO_PASSWORD_NEW: "Debe ingresar una nueva contraseña.",
+        TOKEN_INVALID: "Su sessión finalizo.",
+        UNAUTHORIZE: "No se encuentra autorizado para acceder a este recurso.",
+        BLOCK: "El usuario se encuentra inactivo comuniquese con un administrador.",
+        CREATE: "Creado con exito",
+        DELETE: "Registro eliminado.",
+        SUPERO_PAGO: "El valor a pagar excede el pago total.",
+        TRATAMIENTO_INACTIVO: "El tratamiento seleccionado ya no esta activo.",
+        NO_SIMULTANEO: "Este plan no permite compras simultaneas para un mismo usuario.",
+        PAGO_FALTANTE: "El pago no es el correspondiente para cerrar el plan.",
+        PAGO_MAYOR_PLAN: "El pago registrado excede el valor del tratamiento.",
+        NO_DISPONIBLE_ESPECIALISTA: "El especialista ya posee una cita en esta fecha.",
+        NO_DISPONIBLE_USUARIO: "El usuario ya posee una cita en esta fecha.",
+        FECHA_NO_VALIDA: "No se pueden agendar citas para dias pasados.",
+        NO_ELIMINAR: "El usuario no se puede eliminar, porque tiene tratamientos activos.",
+        NO_ELIMINAR_PARAM: "El procedimiento no se puede eliminar, porque tiene tratamientos activos.",
+        TRATAMIENTO_ACTIVO: "Ya posee un plan activo para este procedimiento.",
+        CITAS_ACTIVAS: "El tratamiento no se púede inactivar porque tiene citas agendadas activas",
+        NO_CLINICA: "El especialista debe ser registrado en un centro de atención.",
+        CITA_AGENDADA: "El usuario ya tiene una cita agendada activa para este tratamiento."
+    },
+    TYPESEND_EMAIL: {
+        AGENDAR: "agendar",
+        PASS: "password",
+        PGIR: "pgir"
+    },
+    ROUTES: {
+        AUTH: "/autenticacion",
+        MENU: "/menu",
+        DEPARTAMENTO: "/departamento",
+        CIUDAD: "/ciudad",
+        CLINICA: "/clinica",
+        USUARIO: "/usuario",
+        ESPECIALISTA: "/especialista",
+        PROCEDIMIENTO: "/procedimiento",
+        TRATAMIENTO: "/tratamiento",
+        CITA: "/cita",
+        BUSCAR: "/buscar",
+        UPLOAD: "/upload",
+        BALANCE: "/balance"
+    },
+    MODELS: {
+        NO_PARAM: "no enviado",
+        NO_ID_DEPTO: "El _id departamento no existe.",
+        NO_ID_CIUDAD: "El _id ciudad no existe.",
+        NO_ID_CLINICA: "El _id clinica no existe.",
+        NO_ID_PROCEDIMIENTO: "El _id procedimiento no existe.",
+        NO_ID_TRATAMIENTO: "El _id del tratamiento no existe.",
+        NO_ID_CITA: "El _id de la cita no existe.",
+        NO_ID_USUARIO: "El _id del usuario no existe.",
+        NO_IDENTIFICACION_USUARIO: "El usuario no se encuentra registrado.",
+        NO_ID_ESPECIALISTA: "El _id del especialista no existe.",
+        REGIS_CLINICA: "La clinica ya se encuentra registrada.",
+        REGIST_DATA: "La información ya se encuentra registrada.",
+        NO_REGISTER: "El _id no corresponde a uno registrado.",
+        NO_CREDENTIALS: "EL servicio no esta disponible para manejo de credenciales.",
+        TRATAMIENTO_REGISTRADO: "El usuario ya se encuentra en tratamiento.",
+        NO_TRATAMIENTOS_USUARIO: "No existen tratamientos para el usuario seleccionado.",
+        NO_ESTADO: "Debe enviar el estado de la cita.",
+        NO_HISTORIA: "No se agrego información para la historia clinica.",
+        ESTADO_FAIL: "El estado enviado no es valido.",
+    },
+    ERROR: {
+        FAIL: "Fallo la validación."
+    }
+};
